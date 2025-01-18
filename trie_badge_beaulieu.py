@@ -1,8 +1,7 @@
-import sys
 from turtle import pd
 import pandas
 df = pandas.read_excel('C:/Users/danhk/OneDrive/Bureau/Liste_Abonnés.xlsx') 
-n = 37
+n = 3
 # print (df.info)
 
 # print (df.values)
@@ -11,7 +10,6 @@ n = 37
     # print (i [2])
     # if 'Non Affecté' == i [2]:
     #    print (i [0], i [2]) 
-    
 
 for i in df.values :
     if n == i [0]:
