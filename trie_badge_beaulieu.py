@@ -14,10 +14,9 @@ print ("trie_badge_beaulieu:", sys.argv[1])
 
 for i in df.values : 
     if int(sys.argv[1]) == i [0]:
-
-        print (i[0], i[3], i[5])
-
-    # elif int(sys.argv[1]) != i [0]:
-        # print("not used") 
-    #  else :
+         print (i[0], i[3], i[5])
+else :
+    if int(sys.argv[1]) != i[0]:
+        print ("not used") 
+  #  else :
         # print ("(sys.argv[1]) is not a number")
