@@ -3,7 +3,6 @@ from turtle import pd
 import pandas
 
 df = pandas.read_excel('C:/Users/danhk/OneDrive/Bureau/Liste_Abonnés.xlsx') 
-# n = 7575
 
 # for i in df.values :
     # if n == i [0]:
